@@ -1,0 +1,12 @@
+Describe the problem!
+Pay attention to the values in the variables pane. What’s going wrong?
+Maggie Herms
+
+The current index when we first call the method is set to 5. 
+Then, when we execute the for loop header, currentIndex gets set to 0. We then
+check if the 0 ith element, in this case "to", is in the printed list. If not, 
+we count the occurences of this element with countOccurencesWithIterator, add 
+"to" to the printed list and print it. The issue is that, upon return from the 
+countOccurencesWithIterator call, we have now moved the currentIndex back to 
+5. Therefore, when we try and enter the for loop again, it won't because we are
+now back at the end of "this". 

@@ -1,0 +1,23 @@
+What line does the code fail on?
+	line 75 of LinkedQueue
+
+What is the error?
+	Invariant wrong at the end of remove()
+	"tail should be null if head is null"
+
+What is the case where the error happens?
+	When removing the last item in the queue so there are no more elements/nodes left in the list
+
+What should happen in this case?
+	In this case, since we've removed all the items, head now points to head.next which is null. 
+	Therefore, tail should also be null in order to pass the invariant, which makes sense because 
+	right now, tail is still pointing to the item we removed. We should check that if the list is empty, 
+	or if head is null, and then also set tail null. I tried this two ways: 
+	if (_numItems == 0) {
+		_tail = null;
+	}
+	and:
+	if (_head == null) {
+		_tail = head;
+	}
+	both passed the invariant and caused the tests to pass. 

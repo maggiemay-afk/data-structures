@@ -1,0 +1,8 @@
+What is the error found using the invariant during section 3 of the lab?
+
+In the remove() method of IntArrayBag, we have a target integer that we're tyring to find in the data array. 
+So, if we find the target integer in our array, we set data[] at that index equal to null. Then, we only decrement
+manyItems. Therefore, when we call the wellFormed method after this, it will fail the 2nd invariant because
+our data array contains a null element when it's not supposed to. If we want to pass the 2nd invariant, we would
+need to somehow replace the data[index] by either shifting the entire array after this index down 1 index, or taking the
+element at the end of the array, i.e., data[manyItems] and setting data[index] = data[manyItems]. 

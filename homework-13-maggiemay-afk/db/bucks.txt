@@ -1,0 +1,18 @@
+Num:First:Last:Pos:Ht:Wt:Birth Date:Country:Yrs:College
+06:Eric:Bledsoe:PG:6-01:205:1989/12/09:us:08:University of Kentucky
+34:Giannis:Antetokounmpo:PF:6-11:242:1994/12/06:gr:05:N/A
+22:Khris:Middleton:SF:6-08:222:1991/08/21:us:06:Texas A&M University
+20:Jason:Smith:PF:7-00:240:1986/03/02:us:10:Colorado State University
+07:Thon:Maker:C:7-01:221:1997/02/25:ss:02:N/A
+13:Malcolm:Brogdon:SG:6-05:229:1992/12/11:us:02:University of Virginia
+05:D.J.:Wilson:PF:6-10:231:1996/02/19:us:01:University of Michigan
+03:George:Hill:PG:6-03:188:1986/05/04:us:10:Indiana University-Purdue University Indianapolis
+23:Sterling:Brown:SG:6-06:232:1995/02/10:us:01:Southern Methodist University
+21:Tony:Snell:SG:6-07:213:1991/11/10:us:05:University of New Mexico
+09:Donte:DiVincenzo:SG:6-04:203:1997/01/31:us:00:Villanova University
+77:Ersan:Ilyasova:PF:6-10:235:1987/05/15:tr:10:N/A
+11:Brook:Lopez:C:7-00:270:1988/04/01:us:10:Stanford University
+00:Trevon:Duval:G:6-02:189:1998/08/03:us:00:Duke University
+30:Jaylen:Morris  (TW):SG:6-05:185:1995/09/19:us:01:Molloy
+24:Pat:Connaughton:SG:6-04:209:1993/01/06:us:03:University of Notre Dame
+35:Christian:Wood:PF:6-10:214:1995/09/27:us:02:University of Nevada, Las Vegas

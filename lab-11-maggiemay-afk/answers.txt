@@ -1,0 +1,56 @@
+1. Find In Range
+
+Step 1:
+
+Finish giving the set of beers in the range (dancingMan,schlitz)
+in the subtree rooted with the given beer name:
+
+bud: {lakefront}
+coors: {}
+leinie: {lakefront, riverwest, pabst, michelob, redhook, miller}
+michelob: {michelob, miller}
+miller: {miller}
+pabst: {pabst, michelob, redhook, miller}
+riverwest: {riverwest, pabst, michelob, redhook, miller}
+strohs:{}
+
+2. Height
+
+Step 1:
+
+Give the height of the subtree rooted with the given beer name:
+
+anchor: 1
+blatz: 1
+best: 2
+coors: 1
+lakefront: 2
+bud: 3
+michelob: 2
+redhook: 1
+pabst: 3
+strohs: 2
+riverwest: 4
+leinie: 5
+
+
+3. Check Range
+
+Give the range of legal values for the node given
+considering only the node ABOVE it in the tree.
+(Ignore all nodes below it.) If you mention a beer not above
+the node you are doing something wrong!
+
+leinie: (\_,\_)     (no constraints: root can be anything)
+bud: (\_, leinie)
+best: (\_, bud)
+anchor: (\_, best)
+lakefront: (bud, leinie)
+coors: (bud, lakefront)
+riverwest: (leinie, \_)
+pabst: (leinie, riverwest)
+michelob: (leinie, pabst)
+miller: (michelob, pabst)
+redhook: (leinie, riverwest)
+strohs: (leinie, \_)
+sprecher: (leinie, strohs)
